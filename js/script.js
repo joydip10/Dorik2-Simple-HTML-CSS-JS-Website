@@ -5,6 +5,7 @@ const warning_text=document.querySelector('.warning');
 
 
 comment_btn.addEventListener('click',(e)=>{
+  console.log('Clicked!');
   e.preventDefault();
   const text=textarea.value;
   const div=document.createElement('div');
@@ -30,3 +31,5 @@ comment_btn.addEventListener('click',(e)=>{
   }
  textarea.value='';
 })
+
+AOS.init();
