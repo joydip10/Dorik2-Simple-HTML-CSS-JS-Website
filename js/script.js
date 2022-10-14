@@ -3,7 +3,6 @@ const comment_btn=document.querySelector('.comment-btn');
 const read_comments=document.querySelector('.read-comments');
 const warning_text=document.querySelector('.warning');
 
-AOS.init();
 
 comment_btn.addEventListener('click',(e)=>{
   e.preventDefault();
