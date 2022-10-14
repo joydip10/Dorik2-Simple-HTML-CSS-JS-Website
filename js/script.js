@@ -31,5 +31,3 @@ comment_btn.addEventListener('click',(e)=>{
   }
  textarea.value='';
 })
-
-AOS.init();
